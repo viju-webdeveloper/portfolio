@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Island+Moments&family=Permanent+Marker&family=Shadows+Into+Light&family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./ASSETS/CSS/index.css">
+    <title>Vijendra Kumawat</title>
+</head>
+
+<body>
+
+    <nav>
+        <div class="logo">
+            <a href="#index.html"><header><span>V</span>iju</header></a> 
+        </div>
+        <input type="checkbox" id="active">
+        <label for="active" class="menu-btn"><span></span></label>
+        <label for="active" class="close"></label>
+        <ul class="menu">
+            <li><a href="#home" class="nav-active">home</a></li>
+            <li><a href="#about">about</a></li>
+            <li>services
+                <div class="dropdown">
+                    <a href="frontend.html">Frontend development</a>
+                    <a href="backend.html">Backend development</a>
+                    <a href="wordpress.html">Wordpress website</a>
+                    <a href="seo.html">Technical SEO</a>
+                    <a href="webapplication.html">Web Application Development</a>
+
+                </div>
+            </li>
+            <li><a href="#project">Project</a></li>
+            <li><a href="#connect">contact</a></li>
+        </ul>
+    </nav>
+
+
+    <main>
+        <div class="front" id="home">
+            <h1>VIJENDRA</h1>
+            <h3>YOUR PERSONAL WEB DEVELOPER</h3>
+            <img src="./ASSETS/IMAGES/front.png" alt="image not able to load" />
+        </div>
+
+        <!-- about-me section -->
+
+        <div class="aboutme" id="about">
+            <header>about me</header>
+            <p>Hi, I am Vijendra your personal web developer, <br> a Self taught web developer
+                with two years of experience in web development, and four year of experience in wordpress development. <br> Dedicated to building and optimizing the performance of user-centric, high-impact websites for nationwide.
+                <!-- i am Hard-working web developer with a flair for creating elegant solutions in the least amount of time,
+                i like what i do and believe in learning new thing. -->
+            </p>
+            <a href="about.html">know more</a>
+            <section>
+                <img src="./ASSETS/IMAGES/aboutme.png" alt="image not able to load" />
+            </section>
+
+        </div>
+        
+
+        <!-- servies-section -->
+
+        <div class="services">
+            <header>services</header>
+            <div class="serices-item">
+                <a href="#"><img src="./ASSETS/IMAGES/web development c.png" alt="image not able to load" /><section>Frontend development</section> </a>
+                <a href="#"><img src="./ASSETS/IMAGES/website c.png" alt="image not able to load" /> <section>Backend development</section></a>
+                <a href="#"><img src="./ASSETS/IMAGES/wordpress dev c.png" alt="image not able to load" /> <section>Wordpress website</section></a>
+                <a href="#"><img src="./ASSETS/IMAGES/technical SEO c.png" alt="image not able to load" /><section>Technical SEO</section> </a>
+                <a href="#"><img src="./ASSETS/IMAGES/icons8-backend-development-64.png" alt="image not able to load" /><section>Web Application Development</section></a>
+            </div>
+        </div>
+
+
+        <!-- project-section -->
+
+        <div class="portfolio" id="project">
+
+            <header>projects</header>
+
+            <div class="project">
+            
+                <!-- simple fade in out coursal with opacity effect -->
+    
+                    <!-- simple fade animation coursal automatic changing with different animation and modification -->
+
+                    <div class="myslide fade">
+                        <a href="website.html"><img src="./ASSETS/IMAGES/project 1.PNG" alt="image not able to load"></a>
+                      </div>
+
+                    <div class="myslide fade">
+                      <a href="tribute.html"><img src="./ASSETS/IMAGES/tribute page.png" alt="image not able to load"></a>
+                    </div>
+        
+                    <div class="myslide fade">
+                      <a href="Project.html"><img src="./ASSETS/IMAGES/JscriptProject.png" alt="image not able to load"></a> 
+                    </div>
+        
+                    <div class="myslide fade">
+                      <a href="website.html"><img src="./ASSETS/IMAGES/website.png" alt="image not able to load"></a>
+                    </div>
+    
+                <!-- Next and previous buttons -->
+                <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+                <a class="next" onclick="plusSlides(1)">&#10095;</a>
+            </div>
+            <br>
+    
+            <!-- The dots/circles -->
+            <div id="dots" style="text-align:center">
+                <span class="dot" onclick="currentSlide(1)"></span>
+                <span class="dot" onclick="currentSlide(2)"></span>
+                <span class="dot" onclick="currentSlide(3)"></span>
+                <span class="dot" onclick="currentSlide(4)"></span>
+            </div>
+    
+            </div>
+
+            <!-- <button><a href="Project.html">view all</a></button> -->
+
+        </div>
+
+
+        <!-- GET-In-touch-withus -->
+
+        <div class="getin" id="connect">
+            <header>GET IN TOUCH</header>
+            <form action="post" method="registation.php">
+                <label for="name"> Name -
+                    <input type="text" name="name" id="name" placeholder="Enter Name" required>
+                </label>
+                <br>
+
+                <label for="Email"> Email -
+                    <input type="email" name="Email" id="email" placeholder="Enter your Email" required>
+                </label>
+                 <br>
+
+                <label for="message">Message :-
+                    <textarea name="message" id="msg" cols="40" rows="4" placeholder="Type your message here"></textarea>
+                </label>
+                <br>
+                
+
+                <input type="submit" value="Submit">
+                    
+            </form>
+
+            <div class="card">
+                <section></section>
+                <h1><a href="tel:973-001-1306"> <img src="./ASSETS/IMAGES/phone.png" alt="icon not able to load">+91 9730011306</a></h1>
+                <h2><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vijendra9608@gmail.com"><img src="./ASSETS/IMAGES/email.png" alt="icon not loaded">vijendra9608@gmail.com</a></h2>
+            </div>
+        </div>
+        
+    </main>
+
+    <!-- this is footer secrion -->
+
+
+    <footer>
+        <h1>Connect with me now</h1>
+        <div class="footer-content">
+            <ul>
+                <li><span><a href="https://mail.google.com/mail/?view=cm&fs=1&tf=1&to=vijendra9608@gmail.com">vijendra9608@gmail.com</a></span></li>
+                <li><span><a href="tel:973-001-1306">+91 9730011306</a> </span></li>
+                <li><span><a href="https://twitter.com/vijendrakumawa8">Twitter</a></span></li>
+                <li><span><a href="https://wa.me/9892925303">Whatsapp</a></span></li>
+                <li><span><a href="https://www.linkedin.com/in/vijendra-kumawat-4226b0189/">Linkedin</a></span></li>
+                
+            </ul>
+        </div>
+
+    </footer>
+
+
+    <script src="./ASSETS/JAVASCRIPT/index.js"></script>
+</body>
+
+</html>
