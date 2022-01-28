@@ -140,6 +140,7 @@ h1{
 .container{
     width: 300px;
     display: flex;
+    margin: auto;
     justify-content: center;
     height: 100vh;
   }
