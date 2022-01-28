@@ -28,3 +28,5 @@ function Slides(n) {
     slite[Index - 1].style.display = "block";
     dots[Index - 1].className += " active";
 }
+
+
