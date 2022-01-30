@@ -933,8 +933,8 @@ main{
 
     .getin form{
         top: 60%;
-        left: 20%;
-        width: 80%;
+        left: 10%;
+        width: 90%;
     }
     .getin .card{
         top: 20%;
@@ -960,6 +960,10 @@ main{
 @media only screen and (max-width:380px){
     .front h3{
         width: 200px;
+    }
+    
+    .getin form textarea {
+        max-width: 280px;
     }
 }
 
@@ -995,7 +999,7 @@ main{
     }
 
     .getin form{
-        width: 80%;
+        width: 90%;
     }
 
     .getin .card section{
