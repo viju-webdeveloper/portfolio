@@ -860,7 +860,7 @@ main{
         left: 50%;
         top: 0;
         transform: translateX(-5%);
-        width: 40%;
+        width: 35%;
         height: 40%;
         
     }
@@ -954,6 +954,10 @@ main{
 
     .front h3{
         width: 230px;
+    }
+    
+    .myslide img{
+        height: 70%;
     }
 }
 
