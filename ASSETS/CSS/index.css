@@ -358,7 +358,7 @@ main{
     width: 450px;
     position: absolute;
     top: 40%;
-    left: 10%;
+    left: 11%;
     font-size: 40px;
 }
 
@@ -1085,6 +1085,10 @@ footer h1{
 
     footer h1{
         font-size: 35px;
+    }
+    
+    footer .footer-content{
+        width: 100%;
     }
 
 }
