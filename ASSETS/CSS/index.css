@@ -236,7 +236,7 @@ nav a{
       background-color: black;
       color: white;
       width: 0%;
-      font-size: 18px;
+      font-size: 16px;
       height: 100%;
       position: fixed;
       padding-bottom: 50px;
@@ -245,6 +245,10 @@ nav a{
       transition: 0.5s ease;
 
     }
+      
+      .menu li{
+              font-size: 13px;
+      }
 
     .menu li a{
         color: white;
@@ -253,12 +257,17 @@ nav a{
     
     .menu li:nth-child(3){
         padding-right: 20px;
-        padding-bottom: 290px;
-        transition: 0.5s ease;
+        padding-bottom: 230px;
     }
+      
+     .menu li:nth-child(3) .dropdown a{
+         border-bottom: 1px solid white;
+         width: 92%;
+     }
+         
 
     .dropdown{
-        margin-left: 10px;
+        margin-left: 20px;
         opacity: 1;
         visibility: visible;
     }
@@ -664,7 +673,7 @@ main{
 /* The dots/bullets/indicators */
 #dots{
     position: absolute;
-    bottom: 5%;
+    bottom: 1%;
     width: 100%;
 }
 
@@ -835,7 +844,7 @@ main{
 
     .front h3{
         top: 50px;
-        font-size: 45px;
+        font-size: 40px;
         line-height: 47px;
     }
 
@@ -860,7 +869,7 @@ main{
         left: 49%;
         top: 0;
         transform: translateX(-5%);
-        width: 28%;
+        width: 30%;
         height: 43%;
         
     }
@@ -967,7 +976,7 @@ main{
     }
     
     .getin form textarea {
-        max-width: 280px;
+        max-width: 270px;
     }
 }
 
@@ -1045,7 +1054,7 @@ footer ul{
 
 footer ul li{
     padding: 2px;
-    margin-left: 5px;
+    margin-left: 10px;
     padding-left: 20px;
     font-size: 20px;
     position: relative;
@@ -1108,6 +1117,6 @@ footer h1{
     }
 
     footer ul li{
-        font-size: 16px;
+        font-size: 17px;
     }
 }
