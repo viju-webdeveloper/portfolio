@@ -11,7 +11,7 @@ html{
 body{
     width: 100%;
     max-width: 1400px;
-    min-width: 380px;
+    min-width: 368px;
     margin: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -201,7 +201,7 @@ nav a{
   .menu-btn{
     position: fixed;
     z-index: 2;
-    right: 40px;
+    right: 20px;
     /* left: 70px; */
     top: 0px;
     height: 50px;
@@ -857,11 +857,11 @@ main{
 
     .aboutme section img{
         position: absolute;
-        left: 50%;
+        left: 49%;
         top: 0;
         transform: translateX(-5%);
-        width: 35%;
-        height: 40%;
+        width: 28%;
+        height: 43%;
         
     }
 
@@ -914,12 +914,12 @@ main{
      }
 
      .portfolio{
-         height: 400px;
+         height: 300px;
          margin-top: 100px;
      }
 
      .project{
-        height: 350px;
+        height: 300px;
      }
 
      .getin{
@@ -957,7 +957,7 @@ main{
     }
     
     .myslide img{
-        height: 70%;
+        height: 90%;
     }
 }
 
