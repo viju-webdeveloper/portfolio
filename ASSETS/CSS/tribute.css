@@ -18,8 +18,7 @@ h1,h2,h3,h4,h5,h6{
 }
 
 img{
-    width:600px;
-    height: 500px;
+    height: 60vh;
     object-fit: fill;
 
 }
@@ -120,7 +119,7 @@ img{
 
 
 @media only screen and(max-width:600px){
-    img{
+    body img{
         width: 100vw;
     }
 }
