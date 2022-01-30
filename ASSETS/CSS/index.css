@@ -11,6 +11,7 @@ html{
 body{
     width: 100%;
     max-width: 1400px;
+    min-width: 380px;
     margin: auto;
     overflow-x: hidden;
     scroll-behavior: smooth;
@@ -30,7 +31,6 @@ nav{
     /* background-color: black; */
     /* background:linear-gradient(to right, rgb(92, 151, 228), rgb(63, 104, 240)); */
     margin-bottom: 0px;
-    position: fixed;
     z-index: 9999;
 
 }
@@ -363,13 +363,36 @@ main{
 }
 
 .front img{
-    width: 30%;
+    width: 35%;
     height: 100%;
     display: block;
     position: absolute;
     right: 8%;
     bottom: 0;
     z-index: 1;
+}
+
+@media only screen and (min-width:1200px){
+    .front{
+        height: 600px;
+    }
+
+    .front h1{
+        font-size: 125px; 
+        letter-spacing: 20px;
+        top: -18%;
+    }
+
+    .front h3{
+        font-size: 55px;
+        width: 500px;
+
+    }
+
+    .front img{
+        width: 40%;
+    }
+
 }
 
 
@@ -464,7 +487,7 @@ main{
     }
 
     .front h3{
-        width: 350px;
+        width: 320px;
         font-size: 30px;
     }
 
@@ -777,6 +800,10 @@ main{
         width: 70%;
     }
 
+    .services header{
+        width: 100%;
+    }
+
     .getin header{
         width: 90%;
 
@@ -787,8 +814,17 @@ main{
     }
 
     .getin .card h2{
-        font-size: 15px;
+        font-size: 14px;
         word-wrap: break-word;
+    }
+
+    .getin form{
+        width: 60%;
+    }
+
+    .getin .card section{
+        width: 80px;
+        height: 80px;
     }
 }
 
@@ -803,7 +839,7 @@ main{
 
     .front h1{
         top: 30px;
-        width: 85px;
+        width: 80px;
         font-size: 80px;
         line-height: 70px;
         left: -12%;
@@ -848,7 +884,7 @@ main{
     .aboutme header{
         width: 40%;
         line-height: 55px;
-        font-size: 40px;
+        font-size: 25px;
         top: 2%;
     }
 
@@ -906,6 +942,11 @@ main{
         height: 700px;
     
     }
+
+    .getin header{
+        width: 90%;
+    }
+
     .getin form{
         top: 65%;
         left: 20%;
@@ -932,6 +973,11 @@ main{
     }
 }
 
+@media only screen and (max-width:380px){
+    .front h3{
+        width: 200px;
+    }
+}
 
 /* footer section */
 
@@ -1020,5 +1066,9 @@ footer h1{
 
     footer h1{
         font-size: 30px;
+    }
+
+    footer ul li{
+        font-size: 16px;
     }
 }
