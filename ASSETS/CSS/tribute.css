@@ -117,3 +117,10 @@ img{
 .quotes-section span:hover{
     margin-top: 16px;
 }
+
+
+@media only screen and(max-width:500px){
+    img{
+        width: 100%;
+    }
+}
