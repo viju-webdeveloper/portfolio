@@ -201,7 +201,7 @@ nav a{
   .menu-btn{
     position: fixed;
     z-index: 2;
-    right: 20px;
+    right: 40px;
     /* left: 70px; */
     top: 0px;
     height: 50px;
@@ -826,7 +826,7 @@ main{
         width: 85px;
         font-size: 80px;
         line-height: 70px;
-        left: -10%;
+        left: -15%;
         height: 100%;
         display: block;
         word-wrap: break-word;
@@ -953,7 +953,7 @@ main{
     }
 
     .front h3{
-        width: 250px;
+        width: 230px;
     }
 }
 
