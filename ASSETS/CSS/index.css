@@ -995,7 +995,7 @@ main{
     }
 
     .getin form{
-        width: 60%;
+        width: 90%;
     }
 
     .getin .card section{
@@ -1029,6 +1029,7 @@ footer .footer-content{
 
 footer ul{
     width: 100%;
+    padding: 15px;
     justify-content: center;
     display: flex;
     flex-wrap: wrap;
